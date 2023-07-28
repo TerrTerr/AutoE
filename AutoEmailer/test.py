@@ -1,3 +1,5 @@
+
+
 import smtplib
 import time
 from email.mime.multipart import MIMEMultipart
@@ -42,3 +44,5 @@ for recipient in recipients:
 
 # Close the connection to the email server
 server.quit()
+
+
