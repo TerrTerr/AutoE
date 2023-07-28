@@ -18,7 +18,7 @@ recipients = [
 ]
 
 #Email subject
-subject = 'Testing The Awesome Power Of AutoEing!!!!"
+subject = 'Testing The Awesome Power Of AutoEing!!!!'
 
 #Connect to Sender Email Account (Gmail Only)
 server = smtplib.SMTP('smtp.gmail.com', 587)
