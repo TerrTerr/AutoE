@@ -8,12 +8,9 @@ gmail_user = 'your-email@gmail.com'
 gmail_password = 'your-password'
 
 # List of recipients
-recipients = [
-    {'name': 'Rob', 'email': 'rob@example.com'},
-    {'name': 'Diane', 'email': 'diane@example.com'},
-    {'name': 'Teddy', 'email': 'teddy@example.com'},
-    # Add more recipients as needed
-]
+with open('recipients.csv', 'r') as file:
+    reader = csv.DictReader(file)
+    recipients = list(reader)
 
 # Email subject
 subject = 'Your Subject Here'
