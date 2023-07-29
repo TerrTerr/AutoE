@@ -30,8 +30,8 @@ for recipient in recipients:
     msg['Subject'] = subject
 
     # Email body
-    body = 'Dear {},\n\nYour email body here.'.format(recipient['name'])
-    msg.attach(MIMEText(body, 'plain'))
+    body = 'Dear {},<br><br>Your email body here.'.format(recipient['name'])
+    msg.attach(MIMEText(body, 'html'))
 
     # Send the email
     server.send_message(msg)
