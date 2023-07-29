@@ -1,3 +1,5 @@
+
+import csv
 import smtplib
 import time
 from email.mime.multipart import MIMEMultipart
