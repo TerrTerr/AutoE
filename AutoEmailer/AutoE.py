@@ -36,6 +36,9 @@ for recipient in recipients:
     #Send email
     server.send_message(msg)
 
+    #Print Update
+    print(f"An email has just gone out to {recipient['email']}.")
+    
     #Wait 100 seconds
     time.sleep(100)
 
