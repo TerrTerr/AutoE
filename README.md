@@ -13,3 +13,7 @@ Before running the program, you'll need to go through the code and enter some in
         *The body of the email you're sending.
 
 Emails can be tailored to feel personal.  Use .format to add in recipients name or any other variable you include in your file.
+
+AutoE.py is the only file you need to download.  Save on computer in same folder as recipient list. Run on terminal with python3:  python3 AutoE.py
+
+
